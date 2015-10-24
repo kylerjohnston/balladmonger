@@ -1,0 +1,81 @@
+@font-face {
+    font-family: blackletter;
+    src: url("/static/fonts/proclamate_light.ttf");
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  color: #515151;
+  background: #fff;
+}
+
+p {
+  font-family: blackletter, Baskerville, serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+h1{
+  font-family: baskerville, serif;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: baskerville, serif;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.blackleter {
+  font-family: blackletter, baskerville, serif;
+}
+.header{
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 100.00%;
+   background-color: #fff;
+}
+.wrapper{
+   position: relative;
+   float: left;
+   left: 0.00%;
+   background-color: #fff;
+}
+.left{
+   position: relative;
+   float: left;
+   left: 1.00%;
+   width: 49.00%;
+   background-color: #fff;
+}
+.right{
+   position: relative;
+   float: right;
+   right: 1.00%;
+   width: 47.00%;
+   background-color: #fff;
+}
+.footer{
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 100.00%;
+   background-color: #fff;
+   font-family: baskerville, serif;
+   font-size: 16px;
+}
+
+.footer a {
+  color: #489096;
+  text-decoration: none;
+}
+body {
+   border-width: 0px;
+   padding: 0px;
+   margin: 0px;
+   font-size: 90%;
+   background-color: #fff;
+}
