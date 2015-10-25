@@ -1,8 +1,6 @@
 
 *.pyc
 
-balladmongerer/static/fonts/*
-
 printingpress/in/*
 
 printingpress/source_metadata.json
@@ -14,5 +12,3 @@ sandbox/*
 printingpress/tmp/*
 
 printingpress/out/*
-
-balladmongerer/ngram_chain.p
