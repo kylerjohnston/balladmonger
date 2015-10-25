@@ -6,7 +6,7 @@ class nGramDict:
 
     def add_keys(self, words):
         for word1, word2, word3 in self.generate_trigrams(words):
-            key = word1.lower() + word2.lower()
+            key = (word1.lower(), word2.lower())
             if key in self.chain:
                 self.chain[key].append(word3)
             else:

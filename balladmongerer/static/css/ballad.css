@@ -6,13 +6,13 @@
 body, html {
   margin: 0;
   padding: 0;
-  color: #515151;
+  color: #000;
   background: #fff;
 }
 
 p {
   font-family: blackletter, Baskerville, serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: normal;
 }
 
@@ -61,6 +61,7 @@ h2 {
 .footer{
    position: relative;
    float: left;
+   margin-top: 50px;
    left: 0.00%;
    width: 100.00%;
    background-color: #fff;
