@@ -10,11 +10,12 @@ class Poem:
         self.words = []
         sword1 = 'begin'
         sword2 = 'now'
-
-        while len(self.words) <= length:
+        sents = 0
+        while sents <= length:
             sword1, sword2 = sword2, random.choice(self.chain[sword1.lower(), sword2.lower()])
             if sword2.lower() == 'end':
                 sword1, sword2 = 'begin', 'now'
+                sents += 1
             else:
                 self.words.append(sword2)
         self.make_lines()

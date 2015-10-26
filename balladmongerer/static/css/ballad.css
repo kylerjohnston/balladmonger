@@ -1,7 +1,9 @@
 @font-face {
     font-family: blackletter;
-    src: url("/static/fonts/proclamate_light.ttf");
+    src: url("/static/fonts/Plain_Black.ttf");
 }
+
+@import url(https://fonts.googleapis.com/css?family=Arvo);
 
 body, html {
   margin: 0;
@@ -30,7 +32,9 @@ h2 {
 
 .blackleter {
   font-family: blackletter, baskerville, serif;
+  font-weight: normal;
 }
+
 .header{
    position: relative;
    float: left;
@@ -65,13 +69,19 @@ h2 {
    left: 0.00%;
    width: 100.00%;
    background-color: #fff;
-   font-family: baskerville, serif;
-   font-size: 16px;
+   color: #9f9f9f;
+   font-family: 'Arvo', serif;
+   font-size: 18px;
 }
 
 .footer a {
   color: #489096;
   text-decoration: none;
+}
+
+.footer a.hover {
+  color: #489096;
+  text-decoration: underline;
 }
 body {
    border-width: 0px;
