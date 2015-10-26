@@ -12,3 +12,5 @@ sandbox/*
 printingpress/tmp/*
 
 printingpress/out/*
+
+venv/*
