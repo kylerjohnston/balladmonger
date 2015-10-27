@@ -8,5 +8,5 @@ exclusions = ['\bCHAPTER (\d*|M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0
     '^Enter.*\.\n', '\[.*\n*.*\]', 'Exeunt\.'
     '(Kent|Glou|Edm|Lear|France|Bur|Corn|Alb|Edg|Cur|Old Man|Doct|Fool|Osw|Capt|Gent|Her|\d\. Serv|Gon|Reg|Cor|Knight)(\.+|,+)\s?\n?', 'THE \w+ BOOKE\n', 'OF THE\n',
     'HISTORIE OF ENGLAND\.\n', '^THE \w+ CHAPTER\.\n', '^\^\).*\n', '^\*\).*\n',
-    '\d+\n', '\b\d+\b', '\d+'
+    '\d+\n', '\b\d+\b', '\d+', '\s\.\s'
     ]
