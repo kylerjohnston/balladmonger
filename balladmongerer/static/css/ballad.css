@@ -99,3 +99,16 @@ body {
    font-size: 90%;
    background-color: #fff;
 }
+
+a.button {
+  appearance: button;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  border-radius: 4px;
+  moz-border-radius: 4px;
+  webkit-border-radius: 4px;
+  padding: 10px;
+  height: 50px;
+  width: 200px;
+  border: 1px #489096 solid;
+}
