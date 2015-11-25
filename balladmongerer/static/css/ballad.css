@@ -1,9 +1,4 @@
-@font-face {
-    font-family: blackletter;
-    src: url("/static/fonts/plain.ttf");
-}
-
-@import url(https://fonts.googleapis.com/css?family=Arvo);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body, html {
   margin: 0;
@@ -13,7 +8,7 @@ body, html {
 }
 
 p {
-  font-family: blackletter, Baskerville, serif;
+  font-family: baskerville, serif;
   font-size: 22px;
   font-weight: normal;
 }
@@ -31,15 +26,16 @@ h2 {
 }
 
 .blackleter {
-  font-family: blackletter, baskerville, serif;
+  font-family: baskerville, serif;
   font-weight: normal;
 }
 
 .header{
+   margin-top: 20px;
    position: relative;
    float: left;
-   left: 0.00%;
-   width: 100.00%;
+   left: 10.00%;
+   width: 90.00%;
    background-color: #fff;
 }
 .wrapper{
@@ -51,32 +47,38 @@ h2 {
 .left{
    position: relative;
    float: left;
-   left: 1.00%;
-   width: 49.00%;
+   left: 10.00%;
+   width: 39.00%;
    background-color: #fff;
 }
 .right{
    position: relative;
    float: right;
-   right: 1.00%;
-   width: 47.00%;
+   right: 10.00%;
+   width: 37.00%;
    background-color: #fff;
 }
 .footer{
    position: relative;
    float: left;
    margin-top: 50px;
-   left: 0.00%;
-   width: 100.00%;
+   margin-bottom: 50px;
+   left: 10.00%;
+   width: 90.00%;
    background-color: #fff;
    color: #9f9f9f;
-   font-family: 'Arvo', serif;
-   font-size: 18px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 15px;
 }
 
 .footer a {
-  color: #489096;
+  color: #9f9f9f;
   text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+.footer a:hover {
+  color: #3f3f3f;
 }
 
 .footer a.hover {
