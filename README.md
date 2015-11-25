@@ -13,6 +13,7 @@ Balladmonger consists of two Python packages: `printingpress`, which cleans up t
 `printingpress` makes its model by extracting all possible trigrams from the training texts and putting them into a Python dictionary where the first two words act as a tuple key and the value is a list of all possible third words. So if we were training it on Taylor Swift:
 
 > 'Cause the players gonna play, play, play, play, play
+>
 > And the haters gonna hate, hate, hate, hate, hate
 
 we'd get something like:
