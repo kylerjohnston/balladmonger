@@ -16,6 +16,7 @@ exclusions = ['\bCHAPTER (\d*|M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0
               'HISTORIE OF ENGLAND\.\n',
               '^THE \w+ CHAPTER\.\n',
               '^\^\).*\n',
+              'Mme\.+\s+',
               '^\*\).*\n',
               '\d+\n',
               '\b\d+\b',
