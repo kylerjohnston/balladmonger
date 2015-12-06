@@ -23,7 +23,7 @@
     <div class="left">
       <p>
         {% for item in lines %}
-        {{ item }} <br />
+        {{ item|safe }} <br />
         {% endfor %}
       </p>
     </div>

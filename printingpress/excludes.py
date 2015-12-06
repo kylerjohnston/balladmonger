@@ -1,4 +1,5 @@
 exclusions = ['\bCHAPTER (\d*|M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3}))\.*\b',
+              'CHAPTER',
               '\bChapter \d*\b',
               '\d{2}:\d{2}:\d{2},\d{3}\s-->\s\d{2}:\d{2}:\d{2},\d{3}',
               '^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\.?\n',

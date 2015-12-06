@@ -15,6 +15,7 @@ class SourceText:
         for pattern in exclusions:
             expression = re.compile(pattern, re.MULTILINE)
             self.text = expression.sub(' ', self.text)
+        self.text = re.sub(r'(---|--)', '&mdash;', self.text)
         self.text = re.sub(r'\s+', ' ', self.text)
         self.sentences = sent_tokenize(self.text)
         for i in range(len(self.sentences)):
