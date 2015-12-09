@@ -12,6 +12,7 @@ exclusions = ['\bCHAPTER (\d*|M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0
               '\[.*\n*.*\]',
               'Exeunt\.',
               '(Glou|Edm|Bur|Corn|Alb|Edg|Cur|Doct|Osw|Capt|Gent|Her|\d\. Serv|Gon|Reg|Cor|Knight)(\.+|,+)\s*\n*',
+              '(Bast|Glost|Cord|Edgar|Kent|Lear|Alb|Burg|Duke|Reg|Gon|Att|Gent)\.+\n+',
               'THE \w+ BOOKE\n',
               'OF THE\n',
               'HISTORIE OF ENGLAND\.\n',
