@@ -15,18 +15,14 @@ p {
 
 h1{
   font-family: baskerville, serif;
+  font-weight: normal;
   font-size: 40px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 h2 {
   font-family: baskerville, serif;
   font-size: 30px;
-  font-weight: normal;
-}
-
-.blackleter {
-  font-family: baskerville, serif;
   font-weight: normal;
 }
 
@@ -40,6 +36,7 @@ h2 {
    width: 920px;
    background-color: #fff;
 }
+
 .wrapper{
    position: relative;
    float: center;
@@ -48,6 +45,7 @@ h2 {
    margin-right: auto;
    background-color: #fff;
 }
+
 .left{
    position: relative;
    float: left;
@@ -56,6 +54,7 @@ h2 {
    width: 450px;
    background-color: #fff;
 }
+
 .right{
    position: relative;
    float: right;
@@ -64,6 +63,7 @@ h2 {
    width: 450px;
    background-color: #fff;
 }
+
 .footer{
    position: relative;
    float: left;
@@ -95,6 +95,28 @@ body {
    margin: 0px;
    font-size: 90%;
    background-color: #fff;
+}
+
+p.sources {
+  font-family: Baskerville, serif;
+  font-size: 20px;
+}
+
+ul, li {
+  line-height: 1.5;
+}
+
+a.sources {
+  color: #489096;
+  font-family: Baskerville, serif;
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+a.sources:hover {
+  color: #326469;
+  text-decoration: none;
 }
 
 a.button {
