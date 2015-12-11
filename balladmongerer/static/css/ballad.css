@@ -9,7 +9,7 @@ body, html {
 
 p {
   font-family: baskerville, serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: normal;
 }
 
@@ -27,14 +27,48 @@ h2 {
 }
 
 .header{
-   margin-top: 20px;
-   padding-bottom: 20px;
-   position: relative;
-   float: center;
-   margin-left: auto;
-   margin-right: auto;
-   width: 920px;
-   background-color: #fff;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 920px;
+  background-color: #fff;
+}
+
+.nav_bar {
+  background-color: #000;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 3;
+  padding-left: 1rem;;
+  padding-right: 0;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.nav_bar h1, h2, a {
+  display: inline;
+  text-decoration: none;
+  color: #fff;
+  font-family: Garamond, Georgia, serif;
+  font-weight: normal
+}
+
+.nav_bar a:hover {
+  text-decoration: underline;
+}
+
+.nav_bar h1 {
+  font-size: 20px;
+}
+
+.nav_bar h2 {
+  font-size: 16px;
 }
 
 .wrapper{
@@ -81,6 +115,7 @@ h2 {
 
 .footer a {
   color: #9f9f9f;
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   border-bottom: 1px dotted;
 }
@@ -104,6 +139,7 @@ p.sources {
 
 ul, li {
   line-height: 1.5;
+  display: block;
 }
 
 a.sources {
