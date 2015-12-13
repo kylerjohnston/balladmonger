@@ -14,7 +14,8 @@ p {
 }
 
 h1{
-  font-family: baskerville, serif;
+  font-family: garamond, serif;
+  color: #000;
   font-weight: normal;
   font-size: 40px;
   text-transform: none;
@@ -22,8 +23,22 @@ h1{
 
 h2 {
   font-family: baskerville, serif;
+  color: #000;
   font-size: 30px;
   font-weight: normal;
+}
+
+h3 {
+  font-family: garamond, serif;
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+h2.sources {
+  font-family: garamond, serif;
+  font-size: 30px;
+  color: #000;
 }
 
 .header{
@@ -45,7 +60,7 @@ h2 {
   right: 0;
   width: 100%;
   z-index: 3;
-  padding-left: 1rem;;
+  padding-left: 0;
   padding-right: 0;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -69,6 +84,7 @@ h2 {
 
 .nav_bar h2 {
   font-size: 16px;
+  padding-left: 1rem;
 }
 
 .wrapper{
@@ -78,6 +94,7 @@ h2 {
    margin-left: auto;
    margin-right: auto;
    background-color: #fff;
+   color: #000;
 }
 
 .left{
@@ -137,17 +154,16 @@ p.sources {
   font-size: 20px;
 }
 
-ul, li {
-  line-height: 1.5;
-  display: block;
+li.sources {
+  font-family: Baskerville, serif;
+  font-size: 18px;
 }
 
 a.sources {
   color: #489096;
   font-family: Baskerville, serif;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
-  border-bottom: 1px dotted;
 }
 
 a.sources:hover {

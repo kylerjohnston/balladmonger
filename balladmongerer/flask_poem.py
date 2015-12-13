@@ -21,9 +21,9 @@ def flask_poem():
     return render_template('index.html', lines = poem_lines,
                             img_name = img_name)
 
-@app.route('/sources')
+@app.route('/about')
 def sources():
-    return render_template('sources.html')
+    return render_template('about.html')
 
 if __name__ == '__main__':
     app.run()
