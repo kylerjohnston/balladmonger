@@ -12,7 +12,7 @@ import random
 def flask_poem():
     with open('balladmongerer/ngram_chain.p', 'rb') as r:
         chain = pickle.load(r)
-    length = random.randint(5,9)
+    length = random.randint(3,7)
     new_poem = poem_generator.Poem(chain, length)
     poem_lines = []
     for line in new_poem.lines:
@@ -24,6 +24,14 @@ def flask_poem():
 @app.route('/about')
 def sources():
     return render_template('about.html')
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html')
+
+@app.errorhandler(500)
+def internal_server_error(e):
+    return render_template('500.html')
 
 if __name__ == '__main__':
     app.run()

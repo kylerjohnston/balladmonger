@@ -13,6 +13,8 @@ class Poem:
         sents = 0
         while sents <= length:
             sword1, sword2 = sword2, random.choice(self.chain[sword1.lower(), sword2.lower()])
+            if sword1.lower() == 'now':
+                sword2 = sword2[0].upper() + sword2[1:]
             if sword2.lower() == 'end':
                 sword1, sword2 = 'begin', 'now'
                 sents += 1
