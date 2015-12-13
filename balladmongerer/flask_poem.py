@@ -1,5 +1,8 @@
-from balladmongerer import app
-from flask import render_template
+#from balladmongerer import app
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
 try:
     import cPickle as pickle
 except:
