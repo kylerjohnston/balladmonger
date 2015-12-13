@@ -52,8 +52,8 @@ Once you have that done, train your model by running the following command from 
 This will generate a pickle file called `ngram_chain.p` which contains your Markov chain model dictionary. `printingpress` copies it automatically to the `balladmonger/balladmongerer/` directory where it's needed.
 
 ### Generating poems
-I use `gunicorn` as a server. Once you've run `printingpress` and you have an `ngram_chain.p` in the `balladmonger/balladmongerer/` directory, run:
+Once you've run `printingpress` and you have an `ngram_chain.p` in the `balladmonger/balladmongerer/` directory, run:
 
-`$ gunicorn balladmongerer:app`
+`$ python balladmongerer:app`
 
-and your app should be running at 127.0.0.1:8000. Refresh the page for a new poem!
+and your app should be running using Flask's built-in server at 127.0.0.1:5000. Refresh the page for a new poem!
