@@ -1,5 +1,5 @@
 import os, re
-from nltk.tokenize import sent_tokenize
+import nltk
 from excludes import exclusions
 
 textout = 'printingpress/out/trainingtext.txt'
@@ -18,7 +18,8 @@ class SourceText:
         self.text = re.sub(r'(---|--)', '&mdash;', self.text)
         self.text = re.sub(r'\b\.\.\s', '.', self.text)
         self.text = re.sub(r'\s+', ' ', self.text)
-        self.sentences = sent_tokenize(self.text)
+        tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
+        self.sentences = tokenizer.tokenize(self.text)
         for i in range(len(self.sentences)):
             self.sentences[i] = 'BEGIN NOW ' + self.sentences[i] + ' END'
 
