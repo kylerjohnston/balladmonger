@@ -5,4 +5,9 @@ if __name__ == '__main__':
     ngram = ngram_dict.nGramDict()
     ngram.generate_list('printingpress/out/trainingtext.txt')
     ngram.writeout()
-    shutil.copyfile('printingpress/out/ngram_chain.p', 'balladmongerer/ngram_chain.p')
+    if ngram.json:
+        shutil.copyfile('printingpress/out/ngram_chain.json', 
+                        'balladmongerer/ngram_chain.json')
+    else:
+        shutil.copyfile('printingpress/out/ngram_chain.p',
+                        'balladmongerer/ngram_chain.p')

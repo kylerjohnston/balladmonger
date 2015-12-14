@@ -1,12 +1,13 @@
-import pickle, sys, os.path, json
+import pickle, sys, os.path, ujson
 
 class nGramDict:
-    def __init__(self):
+    def __init__(self, json=True):
         nGramDict.chain = {}
+        self.json = json
 
     def add_keys(self, words):
         for word1, word2, word3 in self.generate_trigrams(words):
-            key = (word1.lower(), word2.lower())
+            key = "{0} {1}".format(word1.lower(), word2.lower())
             if key in self.chain:
                 self.chain[key].append(word3)
             else:
@@ -25,10 +26,12 @@ class nGramDict:
             yield(words[i], words[i + 1], words[i + 2])
 
     def writeout(self):
-        with open("printingpress/out/ngram_chain.p", "wb") as f:
-            pickle.dump(self.chain, f)
-        # with open('printingpress/out/ngram_chain.json', 'wb') as f:
-        #     json.dump(self.chain, f)
+        if self.json:
+            with open('printingpress/out/ngram_chain.json', 'w') as f:
+                f.write(ujson.dumps(self.chain).encode('utf-8'))
+        else:
+            with open("printingpress/out/ngram_chain.p", "wb") as f:
+                pickle.dump(self.chain, f)
 
 if __name__ == '__main__':
     if(len(sys.argv) < 2):
