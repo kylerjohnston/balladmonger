@@ -1,16 +1,9 @@
-
+*.swp
 *.pyc
-
 printingpress/in/*
-
 printingpress/source_metadata.json
-
 printingpress/out/trainingtext.txt
-
 sandbox/*
-
 printingpress/tmp/*
-
 printingpress/out/*
-
 venv/*
