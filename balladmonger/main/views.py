@@ -3,8 +3,10 @@ from flask import render_template, url_for
 import ujson
 import random
 from .. import poem_generator
+from config import APP_ROOT
+import os
 
-with open('balladmonger/ngram_chain.json', 'r') as r:
+with open(os.path.join(APP_ROOT, 'balladmonger/ngram_chain.json'), 'r') as r:
     reader = r.read().decode('utf-8')
 chain = ujson.loads(reader)
 
