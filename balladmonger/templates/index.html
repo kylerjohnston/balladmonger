@@ -4,18 +4,20 @@
 
 {% block page_content %}      
   <div class="header">
-    <center><img src="/static/img/header-small.png" /></center>
+    <center><h1>The Ballad of King Lear</h1></center>
+    <center><h2>together with <i>several</i> <span class="small-cap">new</span> Histories,</h2></center>
+    <center><h3>assembled for the first time, by a <span class="small-cap">true</span> computer of <i>words</i>, for the delight and vse of <i>all</i> Readers.</center>
+  </div>
+  <div class="right">
+    <img src="{{ img_name }}" class="woodcut" />
   </div>
   <div class="left">
     <p>
       {% for item in lines %}
-      {{ item|safe }} <br />
+      {{ item|safe }}<br />
       {% endfor %}
     </p>
   </div>  
-  <div class="right">
-    <img src="{{ img_name }}" max-width=400 />
-  </div>
 {% endblock %}
 
 {% block page_footer %}
