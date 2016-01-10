@@ -6,7 +6,8 @@ from .. import poem_generator
 from config import APP_ROOT
 import os
 
-with open(os.path.join(APP_ROOT, 'balladmonger/ngram_chain.json'), 'r') as r:
+with open(os.path.join(APP_ROOT,
+        'balladmonger/printingpress/out/ngram_chain.json'), 'r') as r:
     reader = r.read()
 chain = ujson.loads(reader)
 

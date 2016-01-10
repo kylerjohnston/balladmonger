@@ -1,9 +1,11 @@
-import pickle, sys, os.path, ujson
+import sys
+import os.path
+import ujson
+from config import APP_ROOT
 
 class nGramDict:
     def __init__(self, json=True):
         nGramDict.chain = {}
-        self.json = json
 
     def add_keys(self, words):
         for word1, word2, word3 in self.generate_trigrams(words):
@@ -26,12 +28,9 @@ class nGramDict:
             yield(words[i], words[i + 1], words[i + 2])
 
     def writeout(self):
-        if self.json:
-            with open('printingpress/out/ngram_chain.json', 'w') as f:
-                f.write(ujson.dumps(self.chain).encode('utf-8'))
-        else:
-            with open("printingpress/out/ngram_chain.p", "wb") as f:
-                pickle.dump(self.chain, f)
+        with open(os.path.join(APP_ROOT,
+                'balladmonger/printingpress/out/ngram_chain.json'), 'w') as f:
+            f.write(ujson.dumps(self.chain))
 
 if __name__ == '__main__':
     if(len(sys.argv) < 2):

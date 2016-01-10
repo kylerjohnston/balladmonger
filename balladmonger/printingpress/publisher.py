@@ -1,14 +1,16 @@
 import os, re
 import nltk
-from excludes import exclusions
+from .excludes import exclusions
+from config import APP_ROOT
 
-textout = 'printingpress/out/trainingtext.txt'
+textout = os.path.join(APP_ROOT,
+    'balladmonger/printingpress/out/trainingtext.txt')
 
 class SourceText:
     def __init__(self, filepath):
         try:
             with open(filepath, 'r') as f:
-                self.text = f.read().decode('utf-8')
+                self.text = f.read()
         except:
             print('Error: {} not found.'.format(filepath))
             sys.exit(0)
@@ -27,14 +29,16 @@ class SourceText:
     def writeout(self):
         with open(textout, 'a') as f:
             for sentence in self.sentences:
-                f.write(sentence.encode('utf-8') + '\n')
+                f.write(sentence + '\n')
 
 def make_training_text():
     f = open(textout, 'w').close()
-    files = os.listdir('printingpress/in/')
+    files = os.listdir(os.path.join(APP_ROOT,
+            'balladmonger/printingpress/in/'))
     for filename in files:
         print("Making {}".format(filename))
-        text = SourceText('printingpress/in/' + filename)
+        text = SourceText(os.path.join(APP_ROOT,
+            'balladmonger/printingpress/in/' + filename))
         print("Writing {}".format(filename))
         text.writeout()
 

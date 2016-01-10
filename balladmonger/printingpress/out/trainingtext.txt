@@ -15708,7 +15708,7 @@ BEGIN NOW Best I've ever bred. END
 BEGIN NOW Reminds me of that horse you rode at San Jacinto. END
 BEGIN NOW I want you to have it. END
 BEGIN NOW That's mighty considerate, Henry. END
-BEGIN NOW Mr. Lear. END
+BEGIN NOW Mr. END
 BEGIN NOW Your father just gave me this horse, Thomas. END
 BEGIN NOW It was thoughtful. END
 BEGIN NOW I'm regretful you weren't here to see it. END
@@ -16391,7 +16391,6 @@ BEGIN NOW Highsmith's gathering men. END
 BEGIN NOW No. END
 BEGIN NOW Lear would not be doing this. END
 BEGIN NOW He's capable of many things, but he never break his word. END
-BEGIN NOW Lear's not in charge. END
 BEGIN NOW He's been turned out. END
 BEGIN NOW Who turned him out? END
 BEGIN NOW The other daughters. END
@@ -16546,8 +16545,7 @@ BEGIN NOW No. END
 BEGIN NOW No, I love you. END
 BEGIN NOW I love you. END
 BEGIN NOW Where am I? END
-BEGIN NOW Senor Lear. END
-BEGIN NOW It's all right, Pa. How do you mean? END
+BEGIN NOW Senor It's all right, Pa. How do you mean? END
 BEGIN NOW What am I doing in his house? END
 BEGIN NOW He helped rescue you. END
 BEGIN NOW And he's been protecting me. END
@@ -16624,8 +16622,7 @@ BEGIN NOW He was murdered. END
 BEGIN NOW Murdered by one of the hands. END
 BEGIN NOW We had his funeral two days ago. END
 BEGIN NOW I can show you his grave, Henry. END
-BEGIN NOW I want to speak to Lear. END
-BEGIN NOW We don't know where he is. END
+BEGIN NOW I want to speak to We don't know where he is. END
 BEGIN NOW He disappeared. END
 BEGIN NOW Then why are you sitting here? END
 BEGIN NOW Why aren't you looking for him? END
@@ -17514,7 +17511,7 @@ BEGIN NOW a heart and brain to breed it in? END
 BEGIN NOW When came this to you? END
 BEGIN NOW Who brought it? END
 BEGIN NOW It was not brought me, my lord: there's the cunning of it. END
-BEGIN NOW I found it thrown in at the casement of my closet. END
+BEGIN NOW found it thrown in at the casement of my closet. END
 BEGIN NOW You know the character to be your brother's? END
 BEGIN NOW If the matter were good, my lord, I durst swear it were his; but in respect of that, I would fain think it were not. END
 BEGIN NOW It is his. END
@@ -17560,8 +17557,7 @@ BEGIN NOW An admirable evasion of whore-master man, to lay his goatish dispositi
 BEGIN NOW My father compounded with my mother under the Dragon's Tail, and my nativity was under Ursa Major, so that it follows I am rough and lecherous. END
 BEGIN NOW Fut! END
 BEGIN NOW I should have been that I am, had the maidenliest star in the firmament twinkled on my bastardizing. END
-BEGIN NOW Edgar- Enter Edgar. END
-BEGIN NOW and pat! END
+BEGIN NOW Edgar- Enter and pat! END
 BEGIN NOW he comes, like the catastrophe of the old comedy. END
 BEGIN NOW My cue is villainous melancholy, with a sigh like Tom o' Bedlam. END
 BEGIN NOW O, these eclipses do portend these divisions! END
@@ -17594,8 +17590,7 @@ BEGIN NOW I have told you what I have seen and heard; but faintly, nothing like 
 BEGIN NOW Pray you, away! END
 BEGIN NOW Shall I hear from you anon? END
 BEGIN NOW I do serve you in this business. END
-BEGIN NOW Exit Edgar. END
-BEGIN NOW A credulous father! END
+BEGIN NOW Exit A credulous father! END
 BEGIN NOW and a brother noble, Whose nature is so far from doing harms That he suspects none; on whose foolish honesty My practices ride easy! END
 BEGIN NOW I see the business. END
 BEGIN NOW Let me, if not by birth, have lands by wit; All with me's meet that I can fashion fit. END
@@ -17681,7 +17676,7 @@ BEGIN NOW Dinner, ho, dinner! END
 BEGIN NOW Where's my knave? END
 BEGIN NOW my fool? END
 BEGIN NOW Go you and call my fool hither. END
-BEGIN NOW Enter Steward. END
+BEGIN NOW Steward. END
 BEGIN NOW You, you, sirrah, where's my daughter? END
 BEGIN NOW So please you- Exit. END
 BEGIN NOW Lear. END
@@ -17714,7 +17709,7 @@ BEGIN NOW Lear. END
 BEGIN NOW No more of that; I have noted it well. END
 BEGIN NOW Go you and tell my daughter I would speak with her. END
 BEGIN NOW Go you, call hither my fool. END
-BEGIN NOW Enter Steward. END
+BEGIN NOW Steward. END
 BEGIN NOW O, you, sir, you! END
 BEGIN NOW Come you hither, sir. END
 BEGIN NOW Who am I, sir? END
@@ -17862,8 +17857,7 @@ BEGIN NOW May not an ass know when the cart draws the horse? END
 BEGIN NOW Whoop, Jug, I love thee! END
 BEGIN NOW Lear. END
 BEGIN NOW Doth any here know me? END
-BEGIN NOW This is not Lear. END
-BEGIN NOW Doth Lear walk thus? END
+BEGIN NOW This is not Doth Lear walk thus? END
 BEGIN NOW speak thus? END
 BEGIN NOW Where are his eyes? END
 BEGIN NOW Either his notion weakens, his discernings Are lethargied- Ha! END
@@ -17919,7 +17913,6 @@ BEGIN NOW Exit. END
 BEGIN NOW Now, gods that we adore, whereof comes this? END
 BEGIN NOW Never afflict yourself to know the cause; But let his disposition have that scope That dotage gives it. END
 BEGIN NOW Enter Lear. END
-BEGIN NOW Lear. END
 BEGIN NOW What, fifty of my followers at a clap? END
 BEGIN NOW Within a fortnight? END
 BEGIN NOW What's the matter, sir? END
@@ -18058,8 +18051,7 @@ BEGIN NOW Briefness and fortune, work! END
 BEGIN NOW Brother, a word! END
 BEGIN NOW Descend! END
 BEGIN NOW Brother, I say! END
-BEGIN NOW Enter Edgar. END
-BEGIN NOW My father watches. END
+BEGIN NOW Enter My father watches. END
 BEGIN NOW O sir, fly this place! END
 BEGIN NOW Intelligence is given where you are hid. END
 BEGIN NOW You have now the good advantage of the night. END
@@ -18075,8 +18067,7 @@ BEGIN NOW Draw, seem to defend yourself; now quit you well.- Yield! END
 BEGIN NOW Come before my father. END
 BEGIN NOW Light, ho, here! END
 BEGIN NOW Fly, brother.- Torches, torches!- So farewell. END
-BEGIN NOW Exit Edgar. END
-BEGIN NOW Some blood drawn on me would beget opinion Of my more fierce endeavour. END
+BEGIN NOW Exit Some blood drawn on me would beget opinion Of my more fierce endeavour. END
 BEGIN NOW I have seen drunkards Do more than this in sport.- Father, father!- Stop, stop! END
 BEGIN NOW No help? END
 BEGIN NOW Enter Gloucester, and Servants with torches. END
@@ -18307,8 +18298,7 @@ BEGIN NOW Fortune, good night; smile once more, turn thy wheel. END
 BEGIN NOW Sleeps. END
 BEGIN NOW Scene III. END
 BEGIN NOW The open country. END
-BEGIN NOW Enter Edgar. END
-BEGIN NOW I heard myself proclaim'd, And by the happy hollow of a tree Escap'd the hunt. END
+BEGIN NOW Enter I heard myself proclaim'd, And by the happy hollow of a tree Escap'd the hunt. END
 BEGIN NOW No port is free, no place That guard and most unusual vigilance Does not attend my taking. END
 BEGIN NOW Whiles I may scape, I will preserve myself; and am bethought To take the basest and most poorest shape That ever penury, in contempt of man, Brought near to beast. END
 BEGIN NOW My face I'll grime with filth, Blanket my loins, elf all my hair in knots, And with presented nakedness outface The winds and persecutions of the sky. END
@@ -18689,8 +18679,7 @@ BEGIN NOW He that has a house to put 's head in has a good head-piece. END
 BEGIN NOW The codpiece that will house Before the head has any, The head and he shall louse: So beggars marry many. END
 BEGIN NOW The man that makes his toe What he his heart should make Shall of a corn cry woe, And turn his sleep to wake. END
 BEGIN NOW For there was never yet fair woman but she made mouths in a glass. END
-BEGIN NOW Enter Kent. END
-BEGIN NOW Lear. END
+BEGIN NOW Enter Lear. END
 BEGIN NOW No, I will be the pattern of all patience; I will say nothing. END
 BEGIN NOW Kent. END
 BEGIN NOW Who's there? END
@@ -18801,9 +18790,7 @@ BEGIN NOW I'll pray, and then I'll sleep. END
 BEGIN NOW Exit Poor naked wretches, wheresoe'er you are, That bide the pelting of this pitiless storm, How shall your houseless heads and unfed sides, Your loop'd and window'd raggedness, defend you From seasons such as these? END
 BEGIN NOW O, I have ta'en Too little care of this! END
 BEGIN NOW Take physic, pomp; Expose thyself to feel what wretches feel, That thou mayst shake the superflux to them And show the heavens more just. END
-BEGIN NOW Fathom and half, fathom and half! END
-BEGIN NOW Poor Tom! END
-BEGIN NOW Enter Fool Fool. END
+BEGIN NOW Fool. END
 BEGIN NOW Come not in here, nuncle, here's a spirit. END
 BEGIN NOW Help me, help me! END
 BEGIN NOW Kent. END
@@ -18970,8 +18957,7 @@ BEGIN NOW If I find him comforting the King, it will stuff his suspicion more fu
 BEGIN NOW I will lay trust upon thee, and thou shalt find a dearer father in my love. END
 BEGIN NOW Scene VI. END
 BEGIN NOW A farmhouse near Gloucester's Castle. END
-BEGIN NOW Enter Gloucester, Lear, Kent, Fool, and Edgar. END
-BEGIN NOW Here is better than the open air; take it thankfully. END
+BEGIN NOW Enter Gloucester, Lear, Kent, Fool, and Here is better than the open air; take it thankfully. END
 BEGIN NOW I will piece out the comfort with what addition I can. END
 BEGIN NOW I will not be long from you. END
 BEGIN NOW Kent. END
@@ -19207,8 +19193,7 @@ BEGIN NOW Now heaven help him! END
 BEGIN NOW ACT IV. END
 BEGIN NOW Scene I. END
 BEGIN NOW The heath. END
-BEGIN NOW Enter Edgar. END
-BEGIN NOW Yet better thus, and known to be contemn'd, Than still contemn'd and flatter'd. END
+BEGIN NOW Enter Yet better thus, and known to be contemn'd, Than still contemn'd and flatter'd. END
 BEGIN NOW To be worst, The lowest and most dejected thing of fortune, Stands still in esperance, lives not in fear. END
 BEGIN NOW The lamentable change is from the best; The worst returns to laughter. END
 BEGIN NOW Welcome then, Thou unsubstantial air that I embrace! END
@@ -19940,7 +19925,6 @@ BEGIN NOW Sister, you'll go with us? END
 BEGIN NOW No. END
 BEGIN NOW 'Tis most convenient. END
 BEGIN NOW Pray you go with us. END
-BEGIN NOW O, ho, I know the riddle.- I will go. END
 BEGIN NOW If e'er your Grace had speech with man so poor, Hear me one word. END
 BEGIN NOW I'll overtake you.- Speak. END
 BEGIN NOW Exeunt Before you fight the battle, ope this letter. END
@@ -20172,9 +20156,7 @@ BEGIN NOW Your lady, sir, your lady! END
 BEGIN NOW and her sister By her is poisoned; she hath confess'd it. END
 BEGIN NOW I was contracted to them both. END
 BEGIN NOW All three Now marry in an instant. END
-BEGIN NOW Enter Kent. END
-BEGIN NOW Here comes Kent. END
-BEGIN NOW Produce their bodies, be they alive or dead. END
+BEGIN NOW Enter Here comes Produce their bodies, be they alive or dead. END
 BEGIN NOW This judgement of the heavens, that makes us tremble Touches us not with pity. END
 BEGIN NOW O, is this he? END
 BEGIN NOW The time will not allow the compliment That very manners urges. END
@@ -20205,7 +20187,7 @@ BEGIN NOW Haste thee for thy life. END
 BEGIN NOW He hath commission from thy wife and me To hang Cordelia in the prison and To lay the blame upon her own despair That she fordid herself. END
 BEGIN NOW The gods defend her! END
 BEGIN NOW Bear him hence awhile. END
-BEGIN NOW Enter Lear, with Cordelia in his arms, [Edgar, Captain, and others following]. END
+BEGIN NOW in his arms, [Edgar, Captain, and others following]. END
 BEGIN NOW Lear. END
 BEGIN NOW Howl, howl, howl, howl! END
 BEGIN NOW O, you are men of stone. END

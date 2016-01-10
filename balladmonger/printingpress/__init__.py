@@ -1,1 +1,1 @@
-import publisher, ngram_dict, shutil
+from . import publisher, ngram_dict
