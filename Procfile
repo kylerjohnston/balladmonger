@@ -1,1 +1,1 @@
-web: gunicorn balladmongerer:app --log-file -
+web: gunicorn balladmonger:app --log-file -
