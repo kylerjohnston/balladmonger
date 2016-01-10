@@ -1,0 +1,152 @@
+{
+    "keats.txt": {
+      "title": "On Sitting Down to Read King Lear Once Again",
+      "author": "John Keats",
+      "source": "poetryfoundation",
+      "url": "http://www.poetryfoundation.org/poem/173747"
+    },
+    "pg1128.txt": {
+      "title": "The Tragedy of King Lear",
+      "author": "William Shakespeare",
+      "source": "gutenberg",
+      "url": "http://www.gutenberg.org/cache/epub/1128/pg1128.txt"
+    },
+    "walrus.txt": {
+      "title": "I am the Walrus",
+      "author": "The Beatles",
+      "source": "Magical Mystery Tour",
+      "url": ""
+    },
+    "kingleir.txt": {
+      "title": "King Leir & His Three Daughters",
+      "author": "",
+      "source": "gutenberg",
+      "url": "http://www.gutenberg.org/cache/epub/7535/pg7535.txt"
+    },
+    "ran.txt": {
+      "title": "Ran",
+      "author": "",
+      "source": "opensubtitles.org",
+      "url": "http://www.opensubtitles.org/en/subtitles/6106763/ran-en"
+    },
+    "1000acres.txt": {
+      "title": "A Thousand Acres",
+      "author": "arthur",
+      "source": "subscene",
+      "url": "http://subscene.com/subtitles/a-thousand-acres/english/144900"
+    },
+    "kingoftexas.txt": {
+      "title": "King of Texas",
+      "author": "Luis-subs",
+      "source": "subscene",
+      "url": "http://subscene.com/subtitles/king-of-texas/english/832380"
+    },
+    "tumbl1.txt": {
+      "title": "",
+      "author": "dukeofbookingham",
+      "source": "tumblr",
+      "url": "http://dukeofbookingham.tumblr.com/post/130392066615/so-many-fucking-feelings-about-the-fool-in-king"
+    },
+    "tumbl2.txt": {
+      "title": "",
+      "author": "shakespeareheadcanons",
+      "source": "tumblr",
+      "url": "http://shakespeareheadcanons.tumblr.com/post/130895148619/king-lear-headcanon-1"
+    },
+    "ao1.txt": {
+      "title": "The Duke's Daughters (or: Overture, King Lear)",
+      "author": "Rymenhild",
+      "source": "archiveofourown.org",
+      "url": "http://archiveofourown.org/works/604789"
+    },
+    "ao2.txt": {
+      "title": "To Be King",
+      "author": "sophia_sol",
+      "source": "archiveofourown",
+      "url": "http://archiveofourown.org/works/130821"
+    },
+    "ao3.txt": {
+      "title": "god save the king",
+      "author": "inkstainedknitter",
+      "source": "archiveofourown",
+      "url": "http://archiveofourown.org/works/1042975"
+    },
+    "ao4.txt": {
+      "title": "Insight",
+      "author": "impasto",
+      "source": "archiveorown",
+      "url": "http://archiveofourown.org/works/15141"
+    },
+    "ao5.txt": {
+      "title": "Daisy Chains, Cuddles, and Crabbing",
+      "author": "old_quincey",
+      "source": "archiveofourown",
+      "url": "http://archiveofourown.org/works/3828271"
+    },
+    "learswife.txt": {
+      "title": "King Lear's Wife",
+      "author": "Gordon Bottomley",
+      "source": "gutenberg",
+      "url": "http://www.gutenberg.org/files/37446/37446-h/37446-h.htm"
+    },
+    "turgenev.txt": {
+      "title": "A Lear of the Steppes",
+      "author": "Ivan Turgenev",
+      "source": "eldritchpress.org",
+      "url": "http://www.eldritchpress.org/ist/lear.htm"
+    },
+    "161.txt": {
+      "title": "Sense and Sensibility",
+      "author": "Jane Austen",
+      "source": "gutenberg",
+      "url": "http://www.gutenberg.org/ebooks/161"
+    },
+    "1237.txt": {
+      "title": "Father Goriot",
+      "author": "Honore de Balzac",
+      "source": "gutenberg",
+      "url": "http://www.gutenberg.org/ebooks/1237"
+    },
+    "beckett.txt": {
+      "title": "Endgame",
+      "author": "Samuel Beckett",
+      "source": "samuel-beckett.net",
+      "url": "http://samuel-beckett.net/endgame.html"
+    },
+    "caporsushes.txt": {
+      "title": "Cap o' Rushes",
+      "author": "",
+      "source": "Love Like Salt",
+      "url": "http://www.pitt.edu/~dash/salt.html#rushes"
+    },
+    "sugar.txt": {
+      "title": "Sugar and Salt",
+      "author": "",
+      "source": "Love Like Salt",
+      "url": "http://www.pitt.edu/~dash/salt.html#sugar"
+    },
+    "shepherdess.txt": {
+      "title": "The Dirty Shepherdess",
+      "author": "",
+      "source": "Love Like Salt",
+      "url": "http://www.pitt.edu/~dash/salt.html#sebillot"
+    },
+    "ballad1.txt": {
+      "title": "Tragical HISTORY of King LEAR, and his three DAUGHTE[RS]",
+      "source": "EBBA",
+      "author": "",
+      "url": "http://ebba.english.ucsb.edu/ballad/30989/xml"
+    },
+    "ballad2.txt": {
+      "title": "King LEAR and his Three Daughters",
+      "author": "",
+      "source": "EBBA",
+      "url": "http://ebba.english.ucsb.edu/ballad/31243/xml"
+    },
+    "tate.txt": {
+      "title": "The History of King Lear",
+      "author": "Nahum Tate",
+      "source": "Rutgers",
+      "url": "https://andromeda.rutgers.edu/~jlynch/Texts/tatelear.html"
+    }
+}
