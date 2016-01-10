@@ -7,7 +7,7 @@ from config import APP_ROOT
 import os
 
 with open(os.path.join(APP_ROOT, 'balladmonger/ngram_chain.json'), 'r') as r:
-    reader = r.read().decode('utf-8')
+    reader = r.read()
 chain = ujson.loads(reader)
 
 @main.route('/')
