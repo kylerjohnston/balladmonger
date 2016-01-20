@@ -9,13 +9,13 @@
     <center><h3>assembled for the first time, by a <span class="small-cap">true</span> computer of <i>words</i>, for the delight and vse of <i>all</i> Readers.</center>
   </div>
   <div class="right">
-    <img src="{{ img_name }}" class="woodcut" />
+    <img src="{{ img_name }}">
   </div>
   <div class="left">
     <p>
-      {% for item in lines %}
-      {{ item|safe }}<br />
-      {% endfor %}
+    {% for line in lines %}
+    {{ line|safe }}<br />
+    {% endfor %}
     </p>
   </div>  
 {% endblock %}
@@ -23,4 +23,5 @@
 {% block page_footer %}
   <center><a href="javascript:location.reload(true)" class="button">Get a new ballad</a></center><br /><br />
   <a href="/about">What is Balladmonger?</a><br /><br />
-{% endblock %}  
+{% endblock %}
+

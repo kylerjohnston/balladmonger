@@ -1,5 +1,5 @@
 from . import main
-from flask import render_template, url_for
+from flask import render_template, url_for, jsonify
 import ujson
 import random
 from .. import poem_generator
@@ -27,3 +27,9 @@ def flask_poem():
 def sources():
     return render_template('about.html')
 
+@main.route('/json/ballad')
+def balladjson():
+    length = random.randint(2,6)
+    new_poem = poem_generator.Poem(chain, length)
+    poem_lines = [line for line in new_poem.lines]
+    return ujson.dumps(poem_lines)

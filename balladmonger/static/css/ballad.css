@@ -14,6 +14,11 @@ p {
   line-height: 1.25;
 }
 
+div#ballad p {
+  line-height: 0.25;
+  padding-bottom: 0;
+}
+
 h1{
   font-family: garamond, serif;
   color: #333;
@@ -130,7 +135,7 @@ span.small-cap {
 .right, .left {
   display: block;
   position: relative;
-  max-width: 410px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -139,8 +144,9 @@ span.small-cap {
     display: inline;
     float: left;
     margin-left: auto;
-    margin-right: auto;
-    max-width: 410px;
+    margin-right: 0;
+    padding-right: 0;
+    width: 400px;
     background-color: #fdfdfd;
   }
 
@@ -148,6 +154,7 @@ span.small-cap {
     display: inline;
     position: relative;
     float: right;
+    width: 400px;
     margin-right: auto;
     margin-left: auto;
     background-color: #fdfdfd;
