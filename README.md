@@ -40,7 +40,7 @@ There's no need to calculate probabilities of, e.g., the frequency of "and" occu
 
 ## How to use Balladmonger
 ### Install
-You should just be able to clone the repository. Take a look at `requirements.txt` to see what dependencies you'll need to install. It uses Python 2.7; probably won't work with Python 3 (though I haven't tested it).
+You should just be able to clone the repository. Take a look at `requirements.txt` to see what dependencies you'll need to install. It uses Python 3.
 
 ### Training a model
 `printingpress` expects your source texts to be in the directory `balladmonger/printingpress/in/`. (You'll have to create this directory yourself: I don't push it to Github because I don't own the texts I trained my model on). You might want to take a look at the source of `balladmonger/printingpress/excludes.py` which contains a list of regular expressions: `printingpress` loops through this list and removes all matches for each expression from the texts before training the model. You probably want to adjust it to be specific to whatever texts you're training it on. The regular expressions I have in there now were written specifically for the texts I trained my *Lear* model on.
