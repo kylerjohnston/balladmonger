@@ -43,17 +43,17 @@ There's no need to calculate probabilities of, e.g., the frequency of "and" occu
 You should just be able to clone the repository. Take a look at `requirements.txt` to see what dependencies you'll need to install. It uses Python 2.7; probably won't work with Python 3 (though I haven't tested it).
 
 ### Training a model
-`printingpress` expects your source texts to be in the directory `printingpress/in/`. (You'll have to create this directory yourself: I don't push it to Github because I don't own the texts I trained my model on). You might want to take a look at the source of `printingpress/excludes.py` which contains a list of regular expressions: `printingpress` loops through this list and removes all matches for each expression from the texts before training the model. You probably want to adjust it to be specific to whatever texts you're training it on. The regular expressions I have in there now were written specifically for the texts I trained my *Lear* model on.
+`printingpress` expects your source texts to be in the directory `balladmonger/printingpress/in/`. (You'll have to create this directory yourself: I don't push it to Github because I don't own the texts I trained my model on). You might want to take a look at the source of `balladmonger/printingpress/excludes.py` which contains a list of regular expressions: `printingpress` loops through this list and removes all matches for each expression from the texts before training the model. You probably want to adjust it to be specific to whatever texts you're training it on. The regular expressions I have in there now were written specifically for the texts I trained my *Lear* model on.
 
 Once you have that done, train your model by running the following command from the base `balladmonger/` directory:
 
-`$ python printingpress`
+`$ ./manage.py printrun`
 
 This will generate a pickle file called `ngram_chain.p` which contains your Markov chain model dictionary. `printingpress` copies it automatically to the `balladmonger/balladmongerer/` directory where it's needed.
 
 ### Generating poems
 Once you've run `printingpress` and you have an `ngram_chain.p` in the `balladmonger/balladmongerer/` directory, run:
 
-`$ python balladmongerer:app`
+`$ ./manage.py runserver` 
 
 and your app should be running using Flask's built-in server at 127.0.0.1:5000. Refresh the page for a new poem!
