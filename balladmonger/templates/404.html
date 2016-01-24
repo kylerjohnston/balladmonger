@@ -2,14 +2,17 @@
 
 {% block page_title %}404 - Page not found{% endblock %}
 
-{% block nav_bar %}
-  <div class="nav_bar">
-    <h2><a href="/">Back to Balladmonger</a></h2>
-  </div>
-{% endblock %}
-
 {% block page_content %}
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="text-center"><a href="{{ url_for('main.flask_poem') }}">Back to Balladmonger</a></h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
   <h1>404 - Page not found</h1>
   <p>Nothing will come of nothing.</p>
+    </div>
+  </div>
 {% endblock %}
 

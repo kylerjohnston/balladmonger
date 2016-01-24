@@ -1,0 +1,57 @@
+body {
+  margin: 1em 0 1em 0;
+}
+
+.ballad-title {
+  line-height: 1;
+  font-family: Garamond, serif;
+  color: #333333;
+  font-weight: 400;
+  margin: 0;
+}
+
+h1.ballad-title {
+  font-size: 4em;
+}
+
+h2.ballad-title {
+  font-size: 3em;
+}
+
+h3.ballad-title {
+  font-size: 2em;
+}
+
+.small-cap {
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+.ballad-text {
+  font-weight: 300;
+  font-size: 1.15em;
+  line-height: 1.25;
+  color: #333333;
+}
+
+.top-buffer {
+  margin-top: 2em;
+}
+
+a.nav {
+  color: #333333;
+  font-size: 1.5em;
+}
+
+a.nav:hover {
+  color: #777777;
+}
+
+@media print {
+  .no-print {
+    visibility: hidden;
+  }
+  body {
+    margin-top: 200px;
+  }
+}

@@ -2,61 +2,106 @@
 
 {% block page_title %}About Balladmonger{% endblock %}
 
-{% block nav_bar %}
-  <div class="nav_bar">
-    <h2><a href="/">Back to Balladmonger</a></h2>
-  </div>
-{% endblock %}
-
 {% block page_content %}
-  <div class="wrapper">
-    <h1>What is Balladmonger?</h1>
-    <p class="sources">Balladmonger is a small web app built with Python and Flask which dynamically generates poems&mdash;or &ldquo;ballads&rdquo;&mdash;based on Shakespeare&rsquo;s <i>King Lear</i> and other related works. I wrote Balladmonger in the fall of 2015 as a project for a graduate seminar at the University of Illinois on the interactions between Shakespearian drama and early modern ballads. Its purpose is to remediate <i>King Lear</i> into a ballad (well, multiple ballads) and a digital media object, interrogating in the process our ideas of what a work of literature is (can we call what Balladmonger produces remediations of <i>King Lear?</i>) and destabilizing (I hope) ideas of &ldquo;authority&rdquo; and &ldquo;authorship.&rdquo;</p>
-    <h2 class="sources">Balladmonger&rsquo;s sources</h2>
-    <p class="sources">
-    Balladmonger was trained on <i>King Lear</i> and a sampling of texts from the seventeenth, eighteenth, nineteenth, twentieth, and twenty-first centuries that remediate <i>King Lear</i> in some way. Below is a complete list of Balladmonger&rsquo;s source texts.</p>
-    <p class="sources">
-    <h3>17th century and earlier</h3>
-    <ul>
-      <li class="sources">English folk tale. <a class="sources" href="http://www.pitt.edu/~dash/salt.html#rushes">"Cap o' Rushes."</a> ?</li>
-      <li class="sources">French folk tale. <a class="sources" href="http://www.pitt.edu/~dash/salt.html#sebillot">"The Dirty Shepherdess."</a> ?</li>
-      <li class="sources">English folk tale. <a class="sources" href="http://www.pitt.edu/~dash/salt.html#sugar">"Sugar and Salt."</a> ?</li>
-      <li class="sources">Shakespeare, William. <a class="sources" href="http://www.gutenberg.org/cache/epub/1128/pg1128.txt"><i>The Tragedy of King Lear</i></a>. 1623.</li>
-      <li class="sources">Shakespeare, William. Ed. Nahum Tate. <a class="sources" href="https://andromeda.rutgers.edu/~jlynch/Texts/tatelear.html"><i>The History of King Lear</i></a>. 1681.</li>
-    </ul>
-    <h3>18th century</h3>
-    <ul>
-      <li class="sources">Anonymous ballad. <a class="sources" href="http://www.gutenberg.org/cache/epub/7535/pg7535.txt">"King Leir & His Three Daughters."</a> ?</li>
-      <li class="sources">Anonymous ballad. <a class="sources" href="http://ebba.english.ucsb.edu/ballad/30989/xml">"Tragical HISTORY of King LEAR, and his three DAUGHTE[RS]."</a> 1710?</li>
-      <li class="sources">Anonymous ballad. <a class="sources" href="http://ebba.english.ucsb.edu/ballad/31243/xml">"King LEAR and his Three Daughters."</a> 1753&ndash;1785?</li>
-    </ul>
-    <h3>19th century</h3>
-    <ul>
-      <li class="sources">Austen, Jane. <a class="sources" href="http://www.gutenberg.org/ebooks/161"><i>Sense and Sensibility</i></a>. 1811.</li>
-      <li class="sources">Keats, John. <a class="sources" href="http://www.poetryfoundation.org/poem/173747">"On Sitting Down to Read King Lear Again."</a> 1818.</li>
-      <li class="sources">Balzac, Honoré de. Trans. Ellen Marriage. <a class="sources" href="http://www.gutenberg.org/ebooks/1237"><i>Father Goriot</i></a>. 1835.</a></li>
-      <li class="sources">Turgenev, Ivan. <a class="sources" href="http://www.eldritchpress.org/ist/lear.htm">"A Lear of the Steppes."</a> 1870.</li>
-    </ul>
-    <h3>20th century</h3>
-    <ul>
-      <li class="sources">Bottomley, Gordon. <a class="sources" href="http://www.gutenberg.org/files/37446/37446-h/37446-h.htm">"King Lear's Wife."</a> 1920. </li>
-      <li class="sources">Beckett, Samuel. <a class="sources" href="http://samuel-beckett.net/endgame.html"><i>Endgame</i></a>. 1957.</li>
-      <li class="sources">The Beatles. <a class="sources" href="http://genius.com/The-beatles-i-am-the-walrus-lyrics">"I Am the Walrus."</a> 1967.</li>
-      <li class="sources">Dir. Akira Kurosawa. <a class="sources" href="http://www.opensubtitles.org/en/subtitles/6106763/ran-en"><i>Ran</i></a>. 1985.</li>
-      <li class="sources">Dir. Jocelyn Moorhouse. <a class="sources" href="http://subscene.com/subtitles/a-thousand-acres/english/144900"><i>A Thousand Acres</i></a>. 1997.</li>
-    </ul>
-    <h3>21st century</h3>
-    <ul>
-      <li class="sources">Dir. Betsan Morris Evans. <a class="sources" href="http://subscene.com/subtitles/king-of-texas/english/832380"><i>King of Texas</i></a>. 2002.</li>
-      <li class="sources">impasto (Archive Of Our Own). <a class="sources" href="http://archiveofourown.org/works/15141">"Insight."</a> 2004.</li>
-      <li class="sources">sophia_sol (Archive of Our Own). <a class="sources" href="http://archiveofourown.org/works/130821">"To Be King."</a> 2010.</li>
-      <li class="sources">rymenhild (Archive of Our Own). <a class="sources" href="http://archiveofourown.org/works/604789">"The Duke's Daughters (or: Overture, King Lear).</a> 2012.</li>
-      <li class="sources">inkstainedknitter (Archive Of Our Own). <a class="sources" href="http://archiveofourown.org/works/1042975">"god save the king."</a> 2013. </li>
-      <li class="sources">old_quincey (Archive of Our Own). <a class="sources" href="http://archiveofourown.org/works/3828271">"Daisy Chains, Cuddles, and Crabbing."</a> 2015.</li>
-      <li class="sources">Duke of Bookingham (Tumblr). <a class="sources" href="http://dukeofbookingham.tumblr.com/post/130392066615/so-many-fucking-feelings-about-the-fool-in-king">tumblr text post</a>. 2015.</li>
-      <li class="sources">Shakespeare Head Canons (Tumblr). <a class="sources" href="http://shakespeareheadcanons.tumblr.com/post/130895148619/king-lear-headcanon-1">tumblr text post.</a> 2015.</li>
-    </ul>
-    </p>
+  <div class="row">
+    <div class="col-md-12">
+      <a href="{{ url_for('main.flask_poem') }}" class="nav" alt="Back to
+      Balladmonger"><i class="fa fa-home"></i></a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h1>What is Balladmonger?</h1>
+      <p class="sources">Balladmonger is a small web app built with Python and Flask which dynamically generates poems&mdash;or &ldquo;ballads&rdquo;&mdash;based on Shakespeare&rsquo;s <i>King Lear</i> and other related works. I wrote Balladmonger in the fall of 2015 as a project for a graduate seminar at the University of Illinois on the interactions between Shakespearian drama and early modern ballads. Its purpose is to remediate <i>King Lear</i> into a ballad (well, multiple ballads) and a digital media object, interrogating in the process our ideas of what a work of literature is (can we call what Balladmonger produces remediations of <i>King Lear?</i>) and destabilizing (I hope) ideas of &ldquo;authority&rdquo; and &ldquo;authorship.&rdquo;</p>
+      <h2 class="sources">Balladmonger&rsquo;s sources</h2>
+      <p class="sources">
+      Balladmonger was trained on <i>King Lear</i> and a sampling of texts from the seventeenth, eighteenth, nineteenth, twentieth, and twenty-first centuries that remediate <i>King Lear</i> in some way. Below is a complete list of Balladmonger&rsquo;s source texts.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-1">
+      <span></span>
+    </div>
+    <div class="col-md-2">
+      <h3>17th century and earlier</h3>
+    </div>
+    <div class="col-md-9">
+      <ul>
+        <li class="sources">English folk tale. <a class="sources" href="http://www.pitt.edu/~dash/salt.html#rushes">"Cap o' Rushes."</a> ?</li>
+        <li class="sources">French folk tale. <a class="sources" href="http://www.pitt.edu/~dash/salt.html#sebillot">"The Dirty Shepherdess."</a> ?</li>
+        <li class="sources">English folk tale. <a class="sources" href="http://www.pitt.edu/~dash/salt.html#sugar">"Sugar and Salt."</a> ?</li>
+        <li class="sources">Shakespeare, William. <a class="sources" href="http://www.gutenberg.org/cache/epub/1128/pg1128.txt"><i>The Tragedy of King Lear</i></a>. 1623.</li>
+        <li class="sources">Tate, Nahum. <a class="sources" href="https://andromeda.rutgers.edu/~jlynch/Texts/tatelear.html"><i>The History of King Lear</i></a>. 1681.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-1">
+      <span></span>
+    </div>
+    <div class="col-md-2">
+      <h3>18th century</h3>
+    </div>
+    <div class="col-md-9">
+      <ul>
+        <li class="sources">Anonymous ballad. <a class="sources" href="http://www.gutenberg.org/cache/epub/7535/pg7535.txt">"King Leir & His Three Daughters."</a> ?</li>
+        <li class="sources">Anonymous ballad. <a class="sources" href="http://ebba.english.ucsb.edu/ballad/30989/xml">"Tragical HISTORY of King LEAR, and his three DAUGHTE[RS]."</a> 1710?</li>
+        <li class="sources">Anonymous ballad. <a class="sources" href="http://ebba.english.ucsb.edu/ballad/31243/xml">"King LEAR and his Three Daughters."</a> 1753&ndash;1785?</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-1">
+      <span></span>
+    </div>
+    <div class="col-md-2">
+      <h3>19th century</h3>
+    </div>
+    <div class="col-md-9">
+      <ul>
+        <li class="sources">Austen, Jane. <a class="sources" href="http://www.gutenberg.org/ebooks/161"><i>Sense and Sensibility</i></a>. 1811.</li>
+        <li class="sources">Keats, John. <a class="sources" href="http://www.poetryfoundation.org/poem/173747">"On Sitting Down to Read King Lear Again."</a> 1818.</li>
+        <li class="sources">Balzac, Honoré de. Trans. Ellen Marriage. <a class="sources" href="http://www.gutenberg.org/ebooks/1237"><i>Father Goriot</i></a>. 1835.</a></li>
+        <li class="sources">Turgenev, Ivan. <a class="sources" href="http://www.eldritchpress.org/ist/lear.htm">"A Lear of the Steppes."</a> 1870.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-1">
+      <span></span>
+    </div>
+    <div class="col-md-2">
+      <h3>20th century</h3>
+    </div>
+    <div class="col-md-9">
+      <ul>
+        <li class="sources">Bottomley, Gordon. <a class="sources" href="http://www.gutenberg.org/files/37446/37446-h/37446-h.htm">"King Lear's Wife."</a> 1920. </li>
+        <li class="sources">Beckett, Samuel. <a class="sources" href="http://samuel-beckett.net/endgame.html"><i>Endgame</i></a>. 1957.</li>
+        <li class="sources">The Beatles. <a class="sources" href="http://genius.com/The-beatles-i-am-the-walrus-lyrics">"I Am the Walrus."</a> 1967.</li>
+        <li class="sources">Dir. Akira Kurosawa. <a class="sources" href="http://www.opensubtitles.org/en/subtitles/6106763/ran-en"><i>Ran</i></a>. 1985.</li>
+        <li class="sources">Dir. Jocelyn Moorhouse. <a class="sources" href="http://subscene.com/subtitles/a-thousand-acres/english/144900"><i>A Thousand Acres</i></a>. 1997.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-1">
+      <span></span>
+    </div>
+    <div class="col-md-2">
+      <h3>21st century</h3>
+    </div>
+    <div class="col-md-9">
+      <ul>
+        <li class="sources">Dir. Betsan Morris Evans. <a class="sources" href="http://subscene.com/subtitles/king-of-texas/english/832380"><i>King of Texas</i></a>. 2002.</li>
+        <li class="sources">impasto (Archive Of Our Own). <a class="sources" href="http://archiveofourown.org/works/15141">"Insight."</a> 2004.</li>
+        <li class="sources">sophia_sol (Archive of Our Own). <a class="sources" href="http://archiveofourown.org/works/130821">"To Be King."</a> 2010.</li>
+        <li class="sources">rymenhild (Archive of Our Own). <a class="sources" href="http://archiveofourown.org/works/604789">"The Duke's Daughters (or: Overture, King Lear).</a> 2012.</li>
+        <li class="sources">inkstainedknitter (Archive Of Our Own). <a class="sources" href="http://archiveofourown.org/works/1042975">"god save the king."</a> 2013. </li>
+        <li class="sources">old_quincey (Archive of Our Own). <a class="sources" href="http://archiveofourown.org/works/3828271">"Daisy Chains, Cuddles, and Crabbing."</a> 2015.</li>
+        <li class="sources">Duke of Bookingham (Tumblr). <a class="sources" href="http://dukeofbookingham.tumblr.com/post/130392066615/so-many-fucking-feelings-about-the-fool-in-king">tumblr text post</a>. 2015.</li>
+        <li class="sources">Shakespeare Head Canons (Tumblr). <a class="sources" href="http://shakespeareheadcanons.tumblr.com/post/130895148619/king-lear-headcanon-1">tumblr text post.</a> 2015.</li>
+      </ul>
+    </div>
   </div>
 {% endblock %}
 
