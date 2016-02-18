@@ -35,7 +35,11 @@ h3.ballad-title {
 }
 
 .top-buffer {
-  margin-top: 2em;
+  margin-top: 3em;
+}
+
+.footer {
+  margin-top: 100px;
 }
 
 a.nav {
@@ -52,6 +56,6 @@ a.nav:hover {
     visibility: hidden;
   }
   body {
-    margin-top: 200px;
+    margin-top: 50px;
   }
 }

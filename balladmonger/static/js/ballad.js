@@ -15,3 +15,8 @@ newBallad();
 $("button#new-ballad").on("click", function() {
   newBallad();
 });
+
+$(function() {
+  var d = new Date();
+  $('span#current-date').text(d.getFullYear());
+});
