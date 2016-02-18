@@ -3,11 +3,6 @@
 {% block page_title %}The Ballad of King Lear&mdash;Balladmonger{% endblock %}
 
 {% block page_content %}      
-  <!--<div class="row">
-    <div class="col-md-12">
-      <a href="{{ url_for('main.sources') }}" class="nav"><i class="fa fa-question-circle"></i></a>
-    </div>
-  </div>-->
 
   <div class="row">
     <div class="col-md-2 no-print">
@@ -29,14 +24,10 @@
       <span></span>
     </div>
     <div class="col-md-4">
-      <img src="{{ img_name }}" class="img-responsive center-block">
+      <img id="woodcut" class="img-responsive center-block">
     </div>
     <div class="col-md-4">
-      <p class="ballad-text">
-      {% for line in lines %}
-      {{ line|safe }}<br />
-      {% endfor %}
-      </p>
+      <p class="ballad-text"></p>
     </div>
     <div class="col-md-2">
       <span></span>
@@ -45,7 +36,7 @@
 
   <div class="row top-buffer no-print">
     <div class="col-md-4 col-md-offset-4">
-      <a href="javascript:location.reload(true)" class="btn btn-large btn-primary center-block">Get a new ballad</a>
+      <button class="btn btn-large btn-primary center-block" id="new-ballad">Get a new ballad</button>
     </div>
   </div>
 {% endblock %}

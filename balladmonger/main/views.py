@@ -1,10 +1,10 @@
 from . import main
 from flask import render_template, url_for, jsonify
-import ujson
 import random
 from .. import poem_generator
 from config import APP_ROOT
 import os
+import ujson
 
 with open(os.path.join(APP_ROOT,
         'balladmonger/printingpress/out/ngram_chain.json'), 'r') as r:
@@ -12,7 +12,6 @@ with open(os.path.join(APP_ROOT,
 chain = ujson.loads(reader)
 
 @main.route('/')
-@main.route('/index')
 def flask_poem():
     length = random.randint(2,6)
     new_poem = poem_generator.Poem(chain, length)
@@ -32,4 +31,7 @@ def balladjson():
     length = random.randint(2,6)
     new_poem = poem_generator.Poem(chain, length)
     poem_lines = [line for line in new_poem.lines]
-    return ujson.dumps(poem_lines)
+    img_name = url_for('static',
+                       filename='img/img{}.png'.format(str(random.randint(1, 11))))
+    return jsonify(lines = poem_lines,
+                   img = img_name)
