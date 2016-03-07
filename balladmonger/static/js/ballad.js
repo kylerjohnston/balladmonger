@@ -1,3 +1,7 @@
+if(typeof jQuery === 'undefined') {
+  document.write(unescape("%3Cscript src='/static/js/jquery-2.2.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+};
+
 function newBallad() {
   var rand = Math.floor((Math.random() * 100) + 1);
   $.getJSON("/json/ballad?" + rand, function(data) {
