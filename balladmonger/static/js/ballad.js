@@ -1,26 +1,40 @@
-if(typeof jQuery === 'undefined') {
-  document.write(unescape("%3Cscript src='/static/js/jquery-2.2.1.min.js' type='text/javascript'%3E%3C/script%3E"));
-};
+(function balladGeneration() {
+  var httpRequest;
 
-function newBallad() {
-  var rand = Math.floor((Math.random() * 100) + 1);
-  $.getJSON("/json/ballad?" + rand, function(data) {
-    var lines = [];
-    $.each(data['lines'], function(index, value) {
-      lines.push(value + "<br />");
-    });
-    $("p.ballad-text").html(lines);
-    $("img#woodcut").attr("src", data['img']);
-  });
-};
+  function getJSON() {
+    httpRequest = new XMLHttpRequest();
+    httpRequest.onreadystatechange = parseRequest;
+    httpRequest.open('GET', '/json/ballad?' + Math.floor((Math.random() * 100) +2));
+    httpRequest.send(null);
+  }
 
-newBallad();
+  function parseRequest() {
+    if (httpRequest.readyState === XMLHttpRequest.DONE) {
+      var balladText = document.getElementById('ballad-text');
+      if (httpRequest.status === 200) {
+        var response = JSON.parse(httpRequest.responseText);
+        var lines = [];
+        var woodcut = document.getElementById('woodcut');
+        response['lines'].forEach(function(i) {
+          lines.push(i + '<br>');
+        });
+        balladText.innerHTML = lines.join('');
+        woodcut.src = response['img'];
+      }
+      else {
+        balladText.innerHTML = '<p>There was a problem with the request. Please try again.</p>';
+      }
+    }
+  }
 
-$("button#new-ballad").on("click", function() {
-  newBallad();
-});
+  var button = document.getElementById('new-ballad');
+  button.onclick = getJSON;
 
-$(function() {
+  getJSON();
+})();
+
+(function footerDate() {
   var d = new Date();
-  $('span#current-date').text(d.getFullYear());
-});
+  var dateSpan = document.getElementById('current-date');
+  dateSpan.textContent = d.getFullYear();
+})();
